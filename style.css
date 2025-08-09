@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.top-nav h1 {
+  font-size: 20px;
+  color: #0288d1;
+  font-weight: 600;
+}
+
+.profile-pic {
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #4dd0e1;
+  margin-bottom: 10px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url(https://i.pinimg.com/736x/0a/29/94/0a29941cd156f516bf9f2ed3dcb45222.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+
+.konten-dengan-gambar {
+  display: flex;
+  align-items: center; 
+  gap: 20px;            
+  padding: 40px;
+
+}
+
+.gambar-kiri {
+  width: 200px;
+  height: auto;
+  border-radius: 50px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.pengalaman {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.skill {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.kontak {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #007bb3;
+}
+
+.header h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+#tentang {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+#pengalaman {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background-color: #0288d1;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  color: #333;
+}
+
+.skill-box-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.skill-box {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.skill-box h3 {
+  color: #0288d1;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.skill-icons img {
+  width: 250px;
+  height: 100px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.skill-icons img:hover {
+  transform: scale(1.1);
+}
+
+  .skill-box {
+    width: 100%;
+  }
+
+
+#kontak {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  color: #0288d1;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+section p, section li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.nav-bar a {
+  color: rgb(7, 7, 8);
+  font-size: 18px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.nav-bar a:hover {
+  transform: scale(1.2);
+}
